@@ -1,18 +1,18 @@
 {
   query: {
-    startDate: ‘2019-06-01’,
-    endDate: ‘2019-06-30’,
-    timeZone: ‘UTC+0’,
-    dimensions: [‘date’, ‘account’],
-    metrics: [ ‘revenue’ ]
-    interval: ‘day’,
-    currency: ‘USD’,
+    startDate: '2019-06-01',
+    endDate: '2019-06-30',
+    timeZone: 'UTC+0',
+    dimensions: ['date', 'account'],
+    metrics: [ 'revenue' ]
+    interval: 'day',
+    currency: 'USD',
     filters: {
-      account: ‘ozbargain’
+      account: 'ozbargain'
     }
   },
   data: [
-    [1561903200000, ‘ozbargain’, 1000],
-    [1561989600000, ‘ozbargain’, 1500]
+    [1561903200000, 'ozbargain', 1000],
+    [1561989600000, 'ozbargain', 1500]
   ]
 }
