@@ -5,7 +5,7 @@
       "endDate": "2019-06-30",
       "timeZone": "UTC+0",
       "dimensions": ["date", "account"],
-      "metrics": ["revenue"],
+      "metrics": ["revenue", "sentImpressions", "matchedImpressions", "fillRate", "trueCpm"],
       "interval": "day",
       "currency": "USD",
       "filters": {
@@ -13,8 +13,8 @@
       }
     },
     "data": [
-      [1561903200000, "ozbargain", 1000],
-      [1561989600000, "ozbargain", 1500]
+      [1561903200000, "ozbargain", 1050, 1020, 1100, 1000, 1300],
+      [1561989600000, "ozbargain", 1500, 1000, 1200, 1400, 1300]
     ]
   }
 }
