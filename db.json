@@ -5,7 +5,7 @@
       "endDate": "2019-06-30",
       "timeZone": "UTC+0",
       "dimensions": ["date", "account"],
-      "metrics": ["net_revenue", "sent_impressions", "matched_impressions", "fill_rate", "true_cpm"],
+      "metrics": ["revenue", "impressions", "ecpm"],
       "interval": "day",
       "currency": "USD",
       "filters": {
